@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>
+    MyPHU
+  </title>
+  <link rel="stylesheet" href="error404page.css">
+</head>
+<body>  
+  
+
+<section class="header">
+
+    <div class="container">
+        
+        <div class="navbar">
+         <img src="images/myphulogo.png" alt="myphulogo"  class="myphulogo">
+          <nav>
+            <ul id="menuList">
+           <li><a href="index.html">Home</a></li>
+              <li><a href="howtouse.html">How To Use</a></li>
+              <li><a href="ourservices.html">Our Services</a></li>                    
+              <li><a href="partnerships.html">Partnerships </a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+             </ul>
+          </nav>
+          <img src="images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="maintext">
+          <h1>Welcome To </br>
+
+          Perfect Health Universe</h1>
+          
+          <h6>Health Care At Your Fingertips</h6>
+        <a href="bookingrequest.html" class="booknowbtn"> BOOK APPOINTMENT</a>
+          
+        </div> 
+
+    </div>
+</section>
+
+
+
+<div class="Error404BG">
+  <section class="Error404">
+
+    <h1 class="error404"> 404 Page Not Found</h1>
+    <p class="error404p"> Sorry, the page you were looking for does not exist! click <a href="index.html"> Here </a> to return to the home page. </br>
+    If you got to this page by clicking a link, please notify us so we can fix this error :)</p>
+       
+  </section>
+</div>
+   
+ <button onclick="topFunction()" id="backtotopbtn" title="Go to top">Top</button>
+
+
+
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="images/footerlogo.png">
+            
+      </div>
+
+      <div class="footer-center">
+        <div>
+            <p>Our Hotlines</br></br>
+             +260 970445472</br></br>
+            +260 967675192</br></br>
+            +260 967675192</p>
+        </div>
+
+       
+        <div>
+      
+
+          <p><a href="mailto:@eduonix.com">contact@myphu.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+          <div class="newsletter">
+            <h1>Newsletter</h1>
+            
+            <p>Subscribe to our newsletter and be part of our fast growing online community! </p>
+            <hr>
+            <form action="https://formsubmit.co/4ff227c07d38c050df17b0b919a15ff8" method="POST">
+              <input type="text" name="_honey" style="display:none;">
+
+              <input type="hidden" name="_captcha" value="false">
+
+              <input type="hidden" name="_next" value="https://myphu.000webhostapp.com/subscription.html">
+              <input type="email" placeholder="email" required name="subscription">
+              </br>
+              <button type="submit">Subscribe!</button>
+            </form>
+          </div>
+        
+        
+        
+      </div>
+
+      <div>
+      </br>
+
+        <p class="footer-company-name">© 2022 my perfect health universe</p>
+      </div>
+
+
+    </footer>
+
+
+
+
+<script>
+
+
+mybutton = document.getElementById("backtotopbtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+  <script>
+
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+          
+          if(menuList.style.maxHeight == "0px")
+            {
+              menuList.style.maxHeight = "250px";
+            }
+          else
+            {
+              menuList.style.maxHeight = "0px";
+            }
+      }
+
+  </script>
+
+</body>
+</html>

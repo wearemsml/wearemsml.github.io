@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>
+    MyPHU
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  
+<!--START OF CODE FOR MENU AND HEADER IMAGE &TEXT-->
+<section class="header" id="home-home">
+
+    <div class="container">
+        
+        <div class="navbar">
+         <img src="images/myphulogo.jpg" alt="myphulogo"  class="myphulogo">
+          <nav>
+            <ul id="menuList">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="whatwedo.html">How To Use</a></li>
+              <li><a href="ourservices.html">Our Services</a></li>                    
+              <li><a href="partnerships.html">Partnerships </a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+             </ul>
+          </nav>
+          <img src="images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="maintext">
+          <h1>Welcome To </br>
+
+          Perfect Health Universe</h1>
+          
+          <h6>Health Care At Your Fingertips</h6>
+        <a href="bookingrequest.html" class="booknowbtn"> BOOK APPOINTMENT</a>
+          
+        </div> 
+
+    </div>
+</section>
+
+<!-- END OF MENU CODE AND HEADER IMAGE & TEXT -->
+
+
+<!-- WHAT WE DO -->
+<!---
+<div class="whatwedoBG" id="home-whatwedo">
+  <section class="whatwedo" >
+    <h1>How To Use</h1>
+     <div class="row">
+      <div class="whatwedo-col">
+        <h4>What do you need?</h4>
+        <p>We help you identify exactly what product/ service you are looking for and provide you with advice and guidance in cases where you need help</p>
+      </div>
+
+      <div class="whatwedo-col">
+        <h4>What you need to know</h4>
+        <p>We provide you with all the necessary information on the product/ service you are looking for, from how much a pair of glasses would cost to how long your consultation would take and more...</p>
+      </div>
+
+      <div class="howtouse-col">
+        <h4>Let's get you Booked!</h4>
+        <p>After you have picked a product/ service you want, leave the rest to us, our team will get you booked for an appointment at the best hospitals/ clinics in town that are closest to your location! all you have to do is sit back, relax and start getting ready for your appointment :) </p>
+      </div>
+
+    </div>
+  </section>
+</div>
+--->
+
+
+
+
+
+<!-- BECOME A PARTNER -->
+
+<div class="becomeapartnerBG" id="partnerships">
+  <section class="becomeapartner">
+    <h1>become a partner</h1>
+    
+    <h2>
+      If you provide any PROFESSIONAL medical service,</br>Perfect Health Universe is the place to be!
+      </br>help thousands of users find you and get the service they need.
+    </h2>
+    <a href="" class="becomeapartnerbtn">PARTNER WITH US </a>
+  </section>
+</div>
+   
+ <button onclick="topFunction()" id="backtotopbtn" title="Go to top">Top</button>
+
+<!-- FOOTER -->
+
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="images/myphulogo.jpg">
+        <h3>MyPHU</h3>
+      <!--
+        <p class="footer-links">
+          <a href="#">Home</a>
+          |
+          <a href="#">Blog</a>
+          |
+          <a href="#">About</a>
+          |
+          <a href="#">Contact</a>
+        </p>
+    -->
+        
+      </div>
+
+      <div class="footer-center">
+        <div>
+            <p>Our Hotlines</br></br>
+             +260 970445472</br></br>
+            +260 967675192</br></br>
+            +260 967675192</p>
+        </div>
+
+       
+        <div>
+      
+
+          <p><a href="mailto:@eduonix.com">contact@myphu.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+          <div class="newsletter">
+            <h1>Newsletter</h1>
+            
+            <p>Subscribe to our newsletter and be part of our fast growing online community! </p>
+            <hr>
+            <form>
+              <input type="email" placeholder="email" required>
+              </br>
+              <button type="submit">Subscribe!</button>
+            </form>
+          </div>
+        
+        
+        
+      </div>
+
+      <div>
+      </br>
+
+        <p class="footer-company-name">© 2022 my perfect health universe</p>
+      </div>
+
+
+    </footer>
+
+
+
+
+<script>
+
+//Get the button:
+mybutton = document.getElementById("backtotopbtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+
+
+
+
+
+
+
+
+<!--START OF JS. CODE FOR MENU-->
+  <script>
+
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+          
+          if(menuList.style.maxHeight == "0px")
+            {
+              menuList.style.maxHeight = "250px";
+            }
+          else
+            {
+              menuList.style.maxHeight = "0px";
+            }
+      }
+
+  </script>
+<!--END OF JS. CODE FOR MENU-->
+</body>
+</html>

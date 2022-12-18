@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>
+    MyPHU
+  </title>
+  <link rel="stylesheet" href="bookingrequest2.css">
+</head>
+<body>  
+  
+<!--START OF CODE FOR MENU AND HEADER IMAGE &TEXT-->
+<section class="header" id="home-home">
+
+    <div class="container">
+        
+        <div class="navbar">
+          <a href="index.html"> <img src="images/myphulogo.png" alt="myphulogo"  class="myphulogo" ></a>
+          <nav>
+            <ul id="menuList">
+              <li><a href="index.html" class="navbutton">Home</a></li>
+              <li><a href="howtouse.html">How To Use</a></li>
+              <li><a href="ourservices.html">Our Services</a></li>                    
+              <li><a href="partnerships.html">Partnerships </a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+             </ul>
+          </nav>
+          <img src="images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="maintext">
+          <h1>Welcome To </br>
+
+          Perfect Health Universe</h1>
+          
+          <h6>Health Care At Your Fingertips</h6>
+        <a href="bookingrequest.html" class="booknowbtn"> BOOK APPOINTMENT</a>
+          
+        </div> 
+
+    </div>
+</section>
+
+<!-- END OF MENU CODE AND HEADER IMAGE & TEXT -->
+
+
+
+
+
+<div class="appointmentBG">
+  <section class="appointment" >
+    <h1>Secure Appointment</h1>
+  </section>
+
+</div>  
+          
+<!-- BOOKING -->
+<div class="formbody">
+  <div class="formcontainer">
+      
+          <form action="https://formsubmit.co/4ff227c07d38c050df17b0b919a15ff8" method="POST">
+            <input type="text" name="_honey" style="display:none;">
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://myphu.000webhostapp.com/successful.html">
+
+             <div class="form-row">
+                <div class="input-data">
+                   <input type="text" required class="input-text" name="name">
+                   <div class="underline"></div>
+                   <label for="">Name</label>
+                </div>
+                <div class="input-data">
+                   <input type="text" required class="input-text" name="phone">
+                   <div class="underline"></div>
+                   <label for="">Phone No.</label>
+                </div>
+             </div>
+             <div class="form-row">
+                <div class="input-data">
+                   <input type="text" class="input-text" name="email">
+                   <div class="underline"></div>
+                   <label for="">Email Address (optional)</label>
+                </div>
+                <div class="input-data">
+                   <input type="text" required class="input-text" name="Location">
+                   <div class="underline"></div>
+                   <label for="">Your Location</label>
+                    
+                </div>
+
+             </div>
+
+             <div class="form-row">
+                <div class="input-data textarea" >
+                   <textarea rows="30" cols="10" required class="input-text" name="Message"></textarea>
+                   
+                   <label for="">Product/service you need?</label>
+                </div>
+
+             </div>
+             
+             <div class="form-row submit-btn">
+                <div class="input-data">
+                         <div class="inner"></div>
+                         <input type="submit" value="submit">
+                </div>
+             </div>
+
+          </form>
+             
+             
+          
+  </div>
+</div>
+
+
+<!-- BECOME A PARTNER -->
+
+<div class="becomeapartnerBG" id="partnerships">
+  <section class="becomeapartner">
+    <h1>become a partner</h1>
+    
+    <h2>
+      If you provide any PROFESSIONAL medical service,</br>Perfect Health Universe is the place to be!
+      </br>help thousands of users find you and get the service they need.
+    </h2>
+    <a href="" class="becomeapartnerbtn">PARTNER WITH US </a>
+  </section>
+</div>
+
+
+
+
+
+
+
+ 
+
+
+
+<button onclick="topFunction()" id="backtotopbtn" title="Go to top">Top</button>
+
+<!-- FOOTER -->
+
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+          <img src="images/footerlogo.png">
+               
+      </div>
+
+      <div class="footer-center">
+        <div>
+            <p>Our Hotlines</br></br>
+             +260 970445472</br></br>
+            +260 967675192</br></br>
+            +260 967675192</p>
+        </div>
+
+       
+        <div>
+      
+
+          <p><a href="mailto:@eduonix.com">contact@myphu.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+          <div class="newsletter">
+            <h1>Newsletter</h1>
+            
+            <p>Subscribe to our newsletter and be part of our fast growing online community! </p>
+            <hr>
+            <form action="https://formsubmit.co/4ff227c07d38c050df17b0b919a15ff8" method="POST">
+              <input type="text" name="_honey" style="display:none;">
+
+              <input type="hidden" name="_captcha" value="false">
+
+              <input type="hidden" name="_next" value="https://myphu.000webhostapp.com/subscription.html">
+              <input type="email" placeholder="email" required name="subscription">
+              </br>
+              <button type="submit">Subscribe!</button>
+            </form>
+          </div>
+        
+        
+      </div>
+
+      <div>
+      </br>
+
+        <p class="footer-company-name">© 2022 my perfect health universe</p>
+      </div>
+
+
+    </footer>
+
+
+
+
+<script>
+
+//Get the button:
+mybutton = document.getElementById("backtotopbtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+
+
+
+
+
+
+
+
+<!--START OF JS. CODE FOR MENU-->
+  <script>
+
+      var menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+
+      function togglemenu() {
+          
+          if(menuList.style.maxHeight == "0px")
+            {
+              menuList.style.maxHeight = "250px";
+            }
+          else
+            {
+              menuList.style.maxHeight = "0px";
+            }
+      }
+
+  </script>
+
+
+
+
+
+<!--END OF JS. CODE FOR MENU-->
+</body>
+</html>
