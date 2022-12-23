@@ -688,183 +688,37 @@ html{
 
      
 
-    .dentalcare-col{
-        flex-basis: 22%;
-        color: white;
-        border-radius: 10px;
-        margin-bottom:60px;
-        padding-bottom: 0px;
-        position: relative;
-        box-sizing: border-box;
-        overflow: hidden;
-        background:rgba(0,0,0,0.4);
-        transition: 0.5s;
-    
-    }
-
-    .dentalcare-col:hover{
    
-        box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+
+
+    .booknowbtn{
+        margin: auto;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #004cda;
+        border-radius: 5px;
+        padding: 12px 34px;
+        font-size: 16px;
+        background: #004fe0;
+        cursor: pointer;
         transition: 0.5s;
-    }
-
-    .dentalcare-col img{
-        width: 100%;
-        border-radius: 10px;
-        top: 0;
-       left: 0;
 
     }
 
 
-  
-    .dentalcarerow .dentalcare-col h1{
-        font-size: 23px;
+    .booknowbtn:hover{
+        display: inline-block;
+        text-decoration: none;
         color: white;
-        font-style: bold;
-        font-weight: 800;
-        padding-bottom: 10px;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: 15px;
-        margin: 0px;
-        
-
-    }
-
-
-    .dentalcarerow .dentalcare-col h2{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif ;
+        border: 1px solid #004fe0;
+        padding: 12px 34px;
         font-size: 18px;
-        font-weight: 300;
-        margin: 0px;
-        padding: 10px;
-        line-height: 25px;
-        margin-top: 0px;
-       
-    }
-
-
-    .dentalcare h4{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 50px;
-        font-size: 50px;
-        color: white;
-        line-height: 60px;
-
-    }
-
-    .dentalcare{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 90px;
-        font-size: 65px;
-        color: white;
-    }
-
-    .dentalcare h1{
-        font-size: 100px;
-        padding-bottom: 50px;
-    }
-
-  
-
-    .dentalcarerow{
-        margin-top: 5px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction : row; 
-        flex-flow : wrap;
- 
-    }
-
-
-    .dentalcareBG{
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 100px;
-        font-size: 60px;
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-    
-
-
-    .bookbtn{
-        margin: auto;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #1167b1;
         border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 16px;
-        background: #1167b1;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .bookbtn:hover{
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
-        font-size: 16px;
-        border-radius: 5px;
-        background: #dc143c;
+        background: #004fe0;
         cursor: pointer;
         transition: 0.5s;
     }
-
-
-
-    .textonwhatsappbtn{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 32px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .textonwhatsappbtn:hover{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        padding: 12px 34px;
-        font-size: 30px;
-        border-radius: 5px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
 
 
 
@@ -1257,184 +1111,39 @@ html{
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
 
-    .dentalcare-col{
-        flex-basis: 100%;
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        background:rgba(0,0,0,0.3);
-        box-sizing: border-box;
-        transition: 0s;
-
     
-    }
-
-    .dentalcare-col:hover{
-   
-        box-shadow: none;
-        transition: 0s;
-    }
-
-    .dentalcare-col img{
-     width: 50%;
-        border-radius: 10px;
-        top: 0;
-       left: 0;
-
-    }
-
-
-    .dentalcare{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 22px;
-        color: white;
-    }
-
-
-
-    .dentalcarerow .dentalcare-col h1{
-        font-size: 23px;
-        color: white;
-        font-style: bold;
-        font-weight: 800;
-        padding-bottom: 0px;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: 15px;
-        margin: 0px;
-        
-
-    }
-
-
-    .dentalcarerow .dentalcare-col h2{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif ;
-        font-size: 18px;
-        font-weight: 1;
-        margin: 0px;
-        padding: 10px;
-        line-height: 25px;
-        margin-top: 0px;
-        margin-bottom: 10px;
-       
-    }
-
-
-    .dentalcare h1{
-        font-size: 40px;
-        padding-bottom: 10px;
-    }
-
-    .dentalcare h4{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 20px;
-        color: white;
-        line-height: 30px;
-        margin-bottom: 15px;
-
-    }
-
-
-    .dentalcarerow{
-        padding-top: 0px;
-        margin-top: 5px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction : column; 
-        flex-flow : wrap;
-     
- 
-        }
-
-    .dentalcareBG{
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 60px;
-        font-size: 60px;
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-    .bookbtn{
+    .booknowbtn{
         margin: auto;
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #1167b1;
+        border: 1px solid #004fe0;
         border-radius: 5px;
         padding: 12px 34px;
         font-size: 16px;
-        background: #1167b1;
+        background: #004fe0;
         cursor: pointer;
         transition: 0.5s;
 
     }
 
 
-    .bookbtn:hover{
+    .booknowbtn:hover{
         display: inline-block;
         text-decoration: underline;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #004fe0;
         padding: 12px 34px;
-        font-size: 16px;
-        border-radius: 5px;
-        background: #dc143c;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-
-
-    .textonwhatsappbtn{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        border-radius: 5px;
-        padding: 12px 20px;
-        font-size: 19px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .textonwhatsappbtn:hover{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        border-radius: 5px;
-        padding: 12px 20px;
         font-size: 17px;
-        background: #228B22;
+        border-radius: 5px;
+        background: #004fe0;
         cursor: pointer;
         transition: 0.5s;
-
     }
 
+
+
+   
     
 }
 
@@ -1965,10 +1674,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #004fe0;
         padding: 12px 20px;
         font-size: 20px;
-        background: #dc143c;
+        background: #004fe0;
         cursor: pointer;
         transition: 0.5s;
     
@@ -1978,10 +1687,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #004fe0;
         padding: 12px 34px;
-        font-size: 20px;
-        background: #dc143c;
+        font-size: 21px;
+        background: #004fe0;
         cursor: pointer;
         transition: 0.5s;
         }
@@ -1991,202 +1700,6 @@ footer { position: static; }
 
 
     
-
-
-@media only screen and (min-width: 481px) and (max-width: 768px){
-
-    .dentalcare-col{
-        flex-basis: 100%;
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        background:rgba(0,0,0,0.3);
-
-        box-sizing: border-box;
-        transition: 0s;
-    
-    }
-
-    .dentalcare-col:hover{
-   
-        box-shadow: none;
-        transition: 0s;
-    }
-
-    .dentalcare-col img{
-        display: block;
-        width: 50%;
-        margin: auto;
-        border-radius: 10px;
-        top: 0;
-        left: 0;
-    }
-
-
-    .dentalcare{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 22px;
-        color: white;
-    }
-
-
-
-    .dentalcarerow .dentalcare-col h1{
-        font-size: 23px;
-      
-        font-style: bold;
-        font-weight: 800;
-        padding-bottom: 10px;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: 15px;
-        margin: 0px;
-        
-
-    }
-
-
-    .dentalcarerow .dentalcare-col h2{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif ;
-        font-size: 18px;
-        font-weight: 300;
-        margin: 0px;
-        padding: 10px;
-        line-height: 25px;
-        margin-top: 0px;
-       
-    }
-
-
-    .dentalcare h1{
-        font-size: 60px;
-        padding-bottom: 10px;
-    }
-
-    .dentalcare h4{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 30px;
-        color: white;
-        line-height: 40px;
-        margin-bottom: 20px;
-
-    }
-
-
-    .dentalcarerow{
-        padding-top: 0px;
-        margin-top: 5px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction : column; 
-        flex-flow : wrap;
-     
- 
-        }
-
-    .dentalcareBG{
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 60px;
-        font-size: 60px;
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-    
-
-
-    .bookbtn{
-        margin: auto;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #1167b1;
-        border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 16px;
-        background: #1167b1;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .bookbtn:hover{
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
-        font-size: 16px;
-        border-radius: 5px;
-        background: #dc143c;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-
-
-
-
-
-
-    .textonwhatsappbtn{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 27px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .textonwhatsappbtn:hover{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        padding: 12px 34px;
-        font-size: 25px;
-        border-radius: 5px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-
-
-
-}
-
-
-
-
 
 
 
@@ -2381,20 +1894,7 @@ footer { position: static; }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {   
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
  .dropbtn {
     background-color: transparent;
     color: white;
@@ -2606,10 +2106,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #004fe0;
         padding: 12px 34px;
         font-size: 20px;
-        background: #dc143c;
+        background: #004fe0;
         cursor: pointer;
         border-radius: 3px;
     }
@@ -2620,10 +2120,10 @@ footer { position: static; }
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #dc143c;
+    border: 1px solid #004fe0;
     padding: 12px 34px;
-    font-size: 20px;
-    background: #dc143c;
+    font-size: 22px;
+    background: #004fe0;
     cursor: pointer;
     border-radius: 3px;
 
@@ -2677,200 +2177,6 @@ footer { position: static; }
 
 
 }
-
-
-
-
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-
-    .dentalcare-col{
-        flex-basis:46%;
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        position: relative;
-        overflow: hidden;
-        background:rgba(0,0,0,0.3);
-        box-sizing: border-box;
-        transition: 0s;
-    
-    }
-
-    .dentalcare-col:hover{
-   
-        box-shadow: none;
-        transition: 0s;
-    }
-
-    .dentalcare-col img{
-        width: 60%;
-        border-radius: 10px;
-        top: 0;
-        left: 0;
-    }
-
-
-    .dentalcare{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-        padding-top: 0px;
-        font-size: 22px;
-        color: white;
-    }
-
-
-
-    .dentalcarerow .dentalcare-col h2{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif ;
-        font-size: 18px;
-        font-weight: 300;
-        margin: 0px;
-        padding: 10px;
-        line-height: 25px;
-        margin-top: 0px;
-       
-      }
-
-    .dentalcarerow .dentalcare-col h1{
-        font-size: 23px;
-      
-        font-style: bold;
-        font-weight: 800;
-        padding-bottom: 10px;
-        padding: 10px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: 15px;
-        margin: 0px;
-        
-      
-      }
-
-
-    .dentalcare h1{
-        font-size: 60px;
-        padding-bottom: 40px;
-        padding-top: 30px;
-    }
-
-    .dentalcare h4{
-        width: 80%;
-        background-color: none;
-        margin: auto;
-        text-align: center;
-       
-        font-size: 30px;
-        color: white;
-        line-height: 40px;
-        margin-bottom: 50px;
-
-    }
-
-
-    .dentalcarerow{
-        padding-top: 0px;
-        margin-top: 5px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction : row; 
-        flex-flow : wrap;
-     
- 
-        }
-
-    .dentalcareBG{
-        width: 100%;
-        background-size: cover;
-        margin: auto;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 60px;
-        font-size: 60px;
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-    
-
-
-
-    .bookbtn{
-        margin: auto;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #1167b1;
-        border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 16px;
-        background: #1167b1;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .bookbtn:hover{
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
-        font-size: 17px;
-        border-radius: 5px;
-        background: #dc143c;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-
-
-
-
-
-
-    
-    .textonwhatsappbtn{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        border-radius: 5px;
-        padding: 12px 34px;
-        font-size: 32px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-
-    }
-
-
-    .textonwhatsappbtn:hover{
-        margin: auto;
-        margin-top: 0px;
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #228B22;
-        padding: 12px 34px;
-        font-size: 30px;
-        border-radius: 5px;
-        background: #228B22;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-     
-
-}
-
-
-
 
 
 

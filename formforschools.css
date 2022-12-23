@@ -744,14 +744,14 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
     position: relative;
     background-size: cover;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     
   }
    
   
   .formcontainer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    background-image: ;
+    box-shadow: ;
     margin: auto;  
     max-width: 100%;
     background-size: cover;
@@ -771,7 +771,7 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
   }
   .formcontainer form{
     padding: 50px 0 0 0;
-    height: 950px;
+    height: 100%;
     background: transparent;
   }
   .formcontainer form .form-row{
@@ -1026,8 +1026,8 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
       padding: 10px 0 0 0;
       width: 100%;
       margin: auto;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-      box-shadow: 0px 0px 100px rgb(0, 0, 0);
+      background-image: ;
+      box-shadow: ;
     padding: 10px 0 0 0;
     width: 100%;
    
@@ -1055,15 +1055,15 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
         padding-left: 20px;
         position: relative;
         background-size: cover;
-        padding-bottom: 300px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+        padding-bottom: 30px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     }
     .formcontainer .text{
       font-size: 30px;
     }
     .formcontainer form{
       padding: 10px 0 0 0;
-      height: 900px;
+      height: 600px;
       width:80%;
       margin: auto;
     }
@@ -1174,7 +1174,7 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
 
 
 
-@media only screen and (min-width: 481px) and (max-width: 837px){
+@media only screen and (min-width: 481px) and (max-width: 768px){
 
     .appointment{
         width: 90%;
@@ -1254,13 +1254,214 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
         display: block;
         align-items: center;
         justify-content: center;
-        min-height: 175vh;
+        min-height: 130vh;
         padding: 40px;
         padding-left: 20px;
         position: relative;
         background-size: cover;
-        padding-bottom: 200px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+        padding-bottom: 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
+    }
+    .formcontainer .text{
+      font-size: 30px;
+    }
+    .formcontainer form{
+      padding: 10px 0 0 0;
+      height: 850px;
+      width:90%;
+      margin: auto;
+    }
+    .formcontainer form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 50px 0!important;
+    }
+    .submit-btn .input-data{
+      width: 100%!important;
+      top: 130px;
+      
+    }
+  
+  
+    form .form-row .textarea{
+        height: 70px;
+        background: transparent;
+      }
+      
+
+
+      .input-data input,
+  .textarea textarea{
+    display: block;
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid lightgray;
+    background: transparent;
+  }
+
+
+  .textarea textarea{
+    resize: none;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    background: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+
+    .submit-btn .input-data{
+    overflow: hidden;
+    top: 10px;
+    font-size: 22px;
+    text-align: center !important;
+    margin: auto !important;
+    height: 50px!important;
+    width: 100%!important;
+    transition: 0.4s;
+    }
+  
+    .submit-btn .input-data:hover{
+    overflow: hidden;
+    top: 10px;
+    font-size: 24px;
+    margin: auto !important;
+    height: 55px!important;
+    width: 100%!important;
+    transition: 0.4s;
+    background-color: #064ACB;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    }
+  
+    .submit-btn .input-data input{
+    background: none;
+    border: none;
+   margin: auto;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    z-index: 2;
+    transition: 0.3s;
+  }
+  
+  .submit-btn .input-data input:hover{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+    .appointment{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        color: white;
+        transition: 0.5s;
+    
+    }
+    
+    
+    
+    .appointmentBG{
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 55px;
+        background: #005C97;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        transition: 0.5s;
+    
+    }
+    
+    
+    .appointment h2{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        font-weight: 300;
+        margin: 10px 0;
+        color: white;
+        transition: 0.5s;
+    
+    }
+
+
+
+    .appointment h1{
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+        color: color;
+        transition: 0.5s;
+    
+    }
+
+
+
+
+
+    .formcontainer {
+      padding: 10px 0 0 0;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .input-data .underline{
+        position: absolute;
+        bottom: -2px;
+        height: 1px;
+        width: 100%;
+        text-decoration: none;
+        border-bottom: 1px solid lightgray;
+      }
+
+      
+    .formbody{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        min-height: 160vh;
+        padding: 40px;
+        padding-left: 20px;
+        position: relative;
+        background-size: cover;
+        padding-bottom: 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     }
     .formcontainer .text{
       font-size: 30px;
@@ -1372,9 +1573,6 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
 
 
 }
-
-
-
 
 
 

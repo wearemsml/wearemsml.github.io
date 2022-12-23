@@ -744,14 +744,14 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
     position: relative;
     background-size: cover;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     
   }
    
   
   .formcontainer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    background-image: ;
+    box-shadow: ;
     margin: auto;  
     max-width: 100%;
     background-size: cover;
@@ -1026,8 +1026,8 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
       padding: 10px 0 0 0;
       width: 100%;
       margin: auto;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
-      box-shadow: 0px 0px 100px rgb(0, 0, 0);
+      background-image: ;
+      box-shadow: ;
     padding: 10px 0 0 0;
     width: 100%;
    
@@ -1055,15 +1055,15 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
         padding-left: 20px;
         position: relative;
         background-size: cover;
-        padding-bottom: 300px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+        padding-bottom: 50px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     }
     .formcontainer .text{
       font-size: 30px;
     }
     .formcontainer form{
       padding: 10px 0 0 0;
-      height: 900px;
+      height: 970px;
       width:80%;
       margin: auto;
     }
@@ -1260,14 +1260,14 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
         position: relative;
         background-size: cover;
         padding-bottom: 200px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/hirebg2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/hirebg2.jpg);
     }
     .formcontainer .text{
       font-size: 30px;
     }
     .formcontainer form{
       padding: 10px 0 0 0;
-      height: 900px;
+      height: 980px;8
       width:90%;
       margin: auto;
     }
