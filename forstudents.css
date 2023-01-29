@@ -510,7 +510,7 @@ html{
         top: 20px;
         right: -50%;
         width: 50%;
-        height: 25%;
+        height: 100%;
         background: #005C97;  /* fallback for old browsers */
         background: 
         -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -2055,7 +2055,7 @@ footer { position: static; }
         top: 40px;
         right: -50%;
         width: 30%;
-        height: 55%;
+        height: 100%;
         background: #005C97;  /* fallback for old browsers */
         background: 
         -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */

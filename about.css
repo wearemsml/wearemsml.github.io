@@ -514,7 +514,7 @@ html{
         top: 20px;
         right: -50%;
         width: 50%;
-        height: 25%;
+        height: 100%;
         background: #005C97;  /* fallback for old browsers */
         background: 
         -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -616,7 +616,7 @@ html{
         left: 0px;
         padding-top: 10px;
         padding-bottom: 20px;
-        text-decoration: underline 1px blu6;
+        text-decoration: underline 1px blue;
         font-size: 16px;
         background: rgb(0, 60, 129);
         min-width: 200px;
@@ -1990,7 +1990,7 @@ footer { position: static; }
         top: 40px;
         right: -50%;
         width: 30%;
-        height: 55%;
+        height: 100%;
         background: #005C97;  /* fallback for old browsers */
         background: 
         -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
