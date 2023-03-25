@@ -463,7 +463,8 @@ background-color: lightgrey;
 
 
     .navbar{
-        width:100%;
+      width:100%;
+          margin-top: 50px;
         display: flex;
         align-items: center;
        
@@ -478,9 +479,11 @@ background-color: lightgrey;
     }
 
     .menu-icon{
-        width: 25px;
+        width: 220px;
         cursor: pointer;
-        display: none;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 10px;
 
     }
 
@@ -2234,9 +2237,9 @@ background-color: lightgrey;
     
       
     .myphulogo{
-    width: 70px;
+  width: 70px;
     cursor: pointer;
-    top: -10px;
+    top: 32px;
     left: 5%;
     position: absolute;
     
@@ -3329,8 +3332,11 @@ footer { position: static; }
 
 
     .myphulogo{
-    width: 80px;
-    cursor: pointer;
+   width: 100px;
+        cursor: pointer;
+        top: 48px;
+        left: 5%;
+        position: absolute;
     
     }
 
@@ -4266,7 +4272,8 @@ footer { position: static; }
 
 
     .navbar{
-        width:100%;
+         width:100%;
+        margin-top: 50px;
         display: flex;
         align-items: center;
 
@@ -4274,8 +4281,11 @@ footer { position: static; }
     }
 
     .myphulogo{
-        width: 70px;
+    width: 120px;
         cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 8px;
     
     }
 
@@ -5271,17 +5281,37 @@ footer{
     }
 
 
-
-
-
-
-
-
-
-
-    
 }
 
 
+
+}
+
+
+
+
+
+/*-----------------------------------
+------------------------------------
+----------------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {   
+
+ .navbar{
+        width:100%;
+          margin-top: 50px;
+        display: flex;
+        align-items: center;
+       
+
+    }
+
+    .myphulogo{
+        width: 100px;
+        cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 10px;
+    }
 
 }

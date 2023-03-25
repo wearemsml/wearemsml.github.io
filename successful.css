@@ -249,17 +249,19 @@ html{
 
     .navbar{
         width:100%;
-        display: flex;
-        align-items: center;
+        margin-top: 50px;
+      display: flex;
+      align-items: center;
 
 
     }
 
     .myphulogo{
-        width: 100px;
+        width: 220px;
         cursor: pointer;
         top: 520px;
-        margin: 30px 0;
+        margin: 0px 0;
+        margin-top: 10px;
     }
 
     .menu-icon{
@@ -294,7 +296,7 @@ html{
     }
 
     nav ul li a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 18px;
         text-decoration: underline;
         transition: 0.5s;
@@ -311,7 +313,7 @@ html{
 
 
     a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 18px;
         text-decoration: underline;
         transition: 0.5s;
@@ -321,8 +323,9 @@ html{
     .header{
     
         width: 100%;
-        padding-bottom: 100px;
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
+        height: 20%;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(images/headerimage.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -354,10 +357,10 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 20px;
-        background: #dc143c;
+        background: #009213;
         cursor: pointer;
         border-radius: 3px;
         transition: 0.3s;
@@ -369,10 +372,10 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
-        font-size: 22px;
-        background: #dc143c;
+        font-size: 23px;
+        background: #009213;
         cursor: pointer;
         transition: 0.3s;
         border-radius: 3px;
@@ -511,8 +514,9 @@ html{
         width: 50%;
         height: 100%;
         background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: 
+        -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         transition: 0.5s;
         z-index: 1;
         padding-bottom: 130px;
@@ -554,7 +558,7 @@ html{
     }
     
     #menulist2 ul li a:hover{
-        color: #cf2345;
+        color: #028f21;
         text-decoration: none;
         font-size: 14px;
         float: left;
@@ -696,11 +700,11 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004cda;
+        border: 1px solid #028f21;
         border-radius: 5px;
         padding: 12px 34px;
         font-size: 16px;
-        background: #004fe0;
+        background: #028f21;
         cursor: pointer;
         transition: 0.5s;
 
@@ -711,11 +715,11 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #028f21;
         padding: 12px 34px;
         font-size: 18px;
         border-radius: 5px;
-        background: #004fe0;
+        background: #028f21;
         cursor: pointer;
         transition: 0.5s;
     }
@@ -897,7 +901,7 @@ html{
 
 
     .newsletter {
-        background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+        background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
         margin: 0 auto;
         text-align: center;
         max-width: 330px;
@@ -1022,13 +1026,14 @@ html{
 
     .header{
     
-    width: 100%;
-    height: 300PX;
-    padding-bottom: 150PX;
-     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+     
+        width: 100%;
+        height: 300PX;
+        padding-bottom: 150PX;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)),url(images/mobileheaderimage.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
     }
 
 
@@ -1046,14 +1051,13 @@ html{
     
       
     .myphulogo{
-    width: 70px;
-    cursor: pointer;
-    top: -10px;
-    left: 5%;
-    position: absolute;
+        width: 70px;
+        cursor: pointer;
+        top: 32px;
+        left: 5%;
+        position: absolute;
     
     }
-
    
     .maintext{
         width: 80%;
@@ -1078,28 +1082,28 @@ html{
         }
         
         .booknowbtn{
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 20px;
-        font-size: 13px;
-        background: #dc143c;
-        cursor: pointer;
-        transition: 0.5s;
+            display: block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid #009213cc;
+            padding: 12px 20px;
+            font-size: 14px;
+            background:  rgba(0, 146, 19, 0.8);
+            cursor: pointer;
+            transition: 0.5s;
     
         }
     
         .booknowbtn:hover{
-        display: inline-block;
-        text-decoration: none;
-        color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
-        font-size: 13px;
-        background: #dc143c;
-        cursor: pointer;
-        transition: 0.5s;
+            display: block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid rgba(0, 146, 19, 1);
+            padding: 12px 20px;
+            font-size: 17px;
+            background:  rgba(0, 146, 19, 1);
+            cursor: pointer;
+            transition: 0.5s;
         }
 }
 
@@ -1117,11 +1121,11 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #009213cc;
         border-radius: 5px;
         padding: 12px 34px;
         font-size: 16px;
-        background: #004fe0;
+        background: #009213cc;
         cursor: pointer;
         transition: 0.5s;
 
@@ -1132,11 +1136,11 @@ html{
         display: inline-block;
         text-decoration: underline;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #009213cc;
         padding: 12px 34px;
         font-size: 17px;
         border-radius: 5px;
-        background: #004fe0;
+        background: #009213cc;
         cursor: pointer;
         transition: 0.5s;
     }
@@ -1197,7 +1201,7 @@ html{
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     margin: 0 auto;
     text-align: center;
     max-width: 330px;
@@ -1439,8 +1443,9 @@ footer { position: static; }
         width: 30%;
         height: 100%;
         background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: 
+        -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         transition: 0.5s;
         z-index: 1;
         padding-bottom: 130px;
@@ -1482,7 +1487,7 @@ footer { position: static; }
     }
     
     #menulist2 ul li a:hover{
-        color: #cf2345;
+        color: #009213;
         text-decoration: none;
         font-size: 14px;
         float: left;
@@ -1609,7 +1614,7 @@ footer { position: static; }
     width: 100%;
     height: 300PX;
     padding-bottom: 250PX;
-     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6 rgba(0, 0, 0, 0.8)8)),url(images/headerimage.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1640,8 +1645,11 @@ footer { position: static; }
 
 
     .myphulogo{
-    width: 80px;
-    cursor: pointer;
+        width: 100px;
+        cursor: pointer;
+        top: 48px;
+        left: 5%;
+        position: absolute;
     
     }
 
@@ -1674,10 +1682,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #009213;
         padding: 12px 20px;
         font-size: 20px;
-        background: #004fe0;
+        background: #009213;
         cursor: pointer;
         transition: 0.5s;
     
@@ -1687,10 +1695,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 21px;
-        background: #004fe0;
+        background: #009213;
         cursor: pointer;
         transition: 0.5s;
         }
@@ -1754,7 +1762,7 @@ footer { position: static; }
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     margin: 0 auto;
     text-align: center;
     max-width: 330px;
@@ -2008,6 +2016,7 @@ footer { position: static; }
 
     .navbar{
         width:100%;
+        margin-top: 50px;
         display: flex;
         align-items: center;
 
@@ -2015,8 +2024,11 @@ footer { position: static; }
     }
 
     .myphulogo{
-        width: 70px;
+        width: 120px;
         cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 8px;
     
     }
 
@@ -2052,7 +2064,7 @@ footer { position: static; }
     }
 
     nav ul li a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 15px;
         text-decoration: underline;
         transition: 0.5s;
@@ -2072,7 +2084,7 @@ footer { position: static; }
     
         width: 100%;
         padding-bottom: 100px;
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(images/headerimage.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -2106,10 +2118,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #004fe0;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 20px;
-        background: #004fe0;
+        background: #009213;
         cursor: pointer;
         border-radius: 3px;
     }
@@ -2120,10 +2132,10 @@ footer { position: static; }
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #004fe0;
+    border: 1px solid #009213;
     padding: 12px 34px;
     font-size: 22px;
-    background: #004fe0;
+    background: #009213;
     cursor: pointer;
     border-radius: 3px;
 
@@ -2320,7 +2332,7 @@ footer{
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     
     text-align: center;
     width: 200px;
@@ -2453,18 +2465,36 @@ footer{
         background-color: #dc143c; 
     }
 
-
-
-
-
-
-
-
-
-
-    
+   
 }
 
 
 
 }
+
+
+
+/*-----------------------------------
+------------------------------------
+----------------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {   
+
+    .navbar{
+           width:100%;
+             margin-top: 50px;
+           display: flex;
+           align-items: center;
+          
+   
+       }
+   
+       .myphulogo{
+           width: 100px;
+           cursor: pointer;
+           top: 520px;
+           margin: 0px 0;
+           margin-top: 10px;
+       }
+   
+   }

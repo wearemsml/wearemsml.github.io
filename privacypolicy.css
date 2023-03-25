@@ -248,17 +248,19 @@ html{
 
     .navbar{
         width:100%;
-        display: flex;
-        align-items: center;
+        margin-top: 50px;
+      display: flex;
+      align-items: center;
 
 
     }
 
     .myphulogo{
-        width: 100px;
+        width: 220px;
         cursor: pointer;
         top: 520px;
-        margin: 30px 0;
+        margin: 0px 0;
+        margin-top: 10px;
     }
 
     .menu-icon{
@@ -293,7 +295,7 @@ html{
     }
 
     nav ul li a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 18px;
         text-decoration: underline;
         transition: 0.5s;
@@ -310,7 +312,7 @@ html{
 
 
     a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 18px;
         text-decoration: underline;
         transition: 0.5s;
@@ -320,8 +322,9 @@ html{
     .header{
     
         width: 100%;
-        padding-bottom: 100px;
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
+        height: 20%;
+        padding-bottom: 0px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(images/headerimage.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -345,13 +348,14 @@ html{
     }
     .booknowbtn{
         margin-top: 40px;
+        margin:20px ;
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
+        border: 1px solid #009213;
+        padding: 20px 34px;
         font-size: 20px;
-        background: #dc143c;
+        background: #009213;
         cursor: pointer;
         border-radius: 3px;
         transition: 0.3s;
@@ -360,16 +364,18 @@ html{
 
     .booknowbtn:hover{
     
+        margin-top: 40px;
+        margin:20px ;
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
-        padding: 12px 34px;
-        font-size: 22px;
-        background: #dc143c;
+        border: 1px solid #009213;
+        padding: 20px 34px;
+        font-size: 23px;
+        background: #009213;
         cursor: pointer;
-        transition: 0.3s;
         border-radius: 3px;
+        transition: 0.3s;
 
     }
 
@@ -504,11 +510,13 @@ html{
         width: 50%;
         height: 100%;
         background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: 
+        -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         transition: 0.5s;
         z-index: 1;
         padding-bottom: 130px;
+       
     }
     
     #menulist2.active{
@@ -547,7 +555,7 @@ html{
     }
     
     #menulist2 ul li a:hover{
-        color: #cf2345;
+        color: #028f21;
         text-decoration: none;
         font-size: 14px;
         float: left;
@@ -757,72 +765,64 @@ html{
     
 
 
-    .becomeapartner{
-        width: 80%;
-        margin: auto;
-        background-position: center;
-        background-size: cover;
-        text-align: center;
-        padding: 100px 0;
-        font-size: 65px;
-        color: white;
-        top: 100px;
-
-    }
-
-
     .becomeapartnerBG{
         width: 100%;
         margin: auto;
-        background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(images/partnerwithusimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.822)),url(images/partnerwithusimage.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
-        padding: 100px 0;
+        padding: 10px 0;
+        padding-bottom: 50px;
         font-size: 65px;
         color: white;
         box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
-  
+    
     }
-
-
+    
+    
     .becomeapartner h2{
-        font-size: 35px;
-        line-height: 70px;
+        font-size: 30px;
+        line-height: 50px;
         color: white;
         margin-bottom: 40px;
         padding: 0;
     }
-
-
+    
+    
     .becomeapartnerbtn{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143C;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 25px;
-        background: #dc143C;
+        background: #009213;
         cursor: pointer;
         border-radius: 5px;
         transition: 0.5s;
     }
-
-
+    
+    
     .becomeapartnerbtn:hover{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 28px;
-        background: #dc143c;
+        background: #009213;
         cursor: pointer;
         transition: 0.5s;
         border-radius: 5px;
     
-
+    
     }
+    
+    
+    
+    
+    
 
 
     #backtotopbtn {
@@ -998,7 +998,7 @@ html{
 
 
     .newsletter {
-        background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+        background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
         margin: 0 auto;
         text-align: center;
         max-width: 330px;
@@ -1053,8 +1053,8 @@ html{
 
 
     .newsletter button:hover{
-        background-color: #064ACB;
-        border-color: #064ACB;
+        background-color: #009213cc;
+        border-color: #009213cc;
         font-size: 17px;
         box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
         transition: 0.5s;
@@ -1122,15 +1122,16 @@ html{
 
 @media only screen and (min-width: 320px) and (max-width: 480px){
 
-    .header{
     
-    width: 100%;
-    height: 300PX;
-    padding-bottom: 150PX;
-     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+        .header{
+    
+            width: 100%;
+            height: 300PX;
+            padding-bottom: 150PX;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)),url(images/mobileheaderimage.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
     }
 
 
@@ -1148,60 +1149,63 @@ html{
     
       
     .myphulogo{
-    width: 70px;
-    cursor: pointer;
-    top: -10px;
-    left: 5%;
-    position: absolute;
+        width: 70px;
+        cursor: pointer;
+        top: 32px;
+        left: 5%;
+        position: absolute;
     
     }
 
    
     .maintext{
-    width: 80%;
-    height: 30px;
-    color:white;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+        width: 80%;
+        height: 30px;
+        color:white;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
 
     }
     .maintext h1 {
-    font-size: 26px;
-    margin-bottom: 20px;
-    color: white;
-    }
-    .maintext h6{
-    font-size: 18px;
-    padding-bottom: 5px;
-    margin-bottom: 0px;
-    }
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: white;
+        }
+        .maintext h6{
+        font-size: 18px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        color: white;
+        font-weight: 400;
+    
+        }
     
     .booknowbtn{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
-    border: 1px solid #dc143c;
+    border: 1px solid #009213cc;
     padding: 12px 20px;
-    font-size: 13px;
-    background: #dc143c;
+    font-size: 14px;
+    background:  rgba(0, 146, 19, 0.8);
     cursor: pointer;
     transition: 0.5s;
-
+    
     }
 
     .booknowbtn:hover{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #dc143c;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: #dc143c;
-    cursor: pointer;
-    transition: 0.5s;
+        display: block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgba(0, 146, 19, 1);
+        padding: 12px 20px;
+        font-size: 17px;
+        background:  rgba(0, 146, 19, 1);
+        cursor: pointer;
+        transition: 0.5s;
     }
 }
 
@@ -1290,7 +1294,7 @@ html{
 @media only screen and (min-width: 320px) and (max-width: 480px)   {
 
     .becomeapartner{
-        width: 80%;
+        width: 85%;
         margin: auto;
         background-position: center;
         background-size: cover;
@@ -1304,7 +1308,7 @@ html{
     .becomeapartnerBG{
         width: 100%;
         margin: auto;
-        background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(images/partnerwithusimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/partnerwithusimage.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
@@ -1315,17 +1319,18 @@ html{
     }
 
     .becomeapartner h2{
-        font-size: 20px;
+        font-size: 16px;
         line-height: 30px;
+        font-weight: 400;
         color: white;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         padding-bottom: 0PX;
     }
 
      .becomeapartner h1{
-        font-size: 27px;
+        font-size: 28px;
         color: white;
-        margin-bottom: 20px;
+        margin-bottom: 13px;
         padding: 0;
     }
 
@@ -1335,10 +1340,10 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143C;
+        border: 1px solid #009213;
         padding: 10px 20px;
         font-size: 17px;
-        background: #dc143C;
+        background: #009213;
         cursor: pointer;
         border-radius: 5px;
         transition: 0.5s;
@@ -1349,10 +1354,10 @@ html{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
-        font-size: 28px;
-        background: #dc143c;
+        font-size: 20px;
+        background: #009213;
         cursor: pointer;
         transition: 0.5s;
         border-radius: 5px;
@@ -1360,6 +1365,7 @@ html{
 
     }
 
+   
 
 }
 
@@ -1411,8 +1417,7 @@ html{
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
-    margin: 0 auto;
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     text-align: center;
     max-width: 330px;
     padding: 30px 10px;
@@ -1467,8 +1472,8 @@ html{
 
 
 .newsletter button:hover{
-    background-color: #064ACB;
-    border-color: #064ACB;
+    background-color: #009213cc;
+    border-color: #009213cc;
     font-size: 15px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
     transition: 0.5s;
@@ -1653,8 +1658,9 @@ footer { position: static; }
         width: 30%;
         height: 100%;
         background: #005C97;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: 
+        -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         transition: 0.5s;
         z-index: 1;
         padding-bottom: 130px;
@@ -1696,7 +1702,7 @@ footer { position: static; }
     }
     
     #menulist2 ul li a:hover{
-        color: #cf2345;
+        color: #008d13;
         text-decoration: none;
         font-size: 14px;
         float: left;
@@ -1827,13 +1833,13 @@ footer { position: static; }
 
     .header{
     
-    width: 100%;
-    height: 300PX;
-    padding-bottom: 250PX;
-     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+        width: 100%;
+        height: 300PX;
+        padding-bottom: 250PX;
+         background-image: linear-gradient(rgba(0, 0, 0, 0.6 rgba(0, 0, 0, 0.8)8)),url(images/headerimage.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
     }
 
 
@@ -1861,57 +1867,61 @@ footer { position: static; }
 
 
     .myphulogo{
-    width: 80px;
-    cursor: pointer;
+        width: 100px;
+        cursor: pointer;
+        top: 48px;
+        left: 5%;
+        position: absolute;
     
     }
 
     .maintext{
-    width: 80%;
-    height: 30px;
-    color:white;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+        width: 80%;
+        height: 30px;
+        color:white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
 
     }
     .maintext h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    }
-    .maintext h6{
-    font-size: 27px;
-    padding-bottom: 5px;
-    margin-bottom: 0px;
-    }
+        font-size: 32px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        }
+        .maintext h6{
+        font-size: 27px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        }
+        
+        .booknowbtn{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #009213;
+        padding: 12px 20px;
+        font-size: 22px;
+        background: #009213;
+        cursor: pointer;
+        transition: 0.5s;
     
-    .booknowbtn{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #dc143c;
-    padding: 12px 20px;
-    font-size: 20px;
-    background: #dc143c;
-    cursor: pointer;
-    transition: 0.5s;
-
-    }
-
-    .booknowbtn:hover{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #dc143c;
-    padding: 12px 34px;
-    font-size: 20px;
-    background: #dc143c;
-    cursor: pointer;
-    transition: 0.5s;
-    }
+        }
+    
+        .booknowbtn:hover{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #009213;
+        padding: 12px 34px;
+        font-size: 20px;
+        background: #009213;
+        cursor: pointer;
+        transition: 0.5s;
+        }
 }
 
 
@@ -1992,6 +2002,7 @@ footer { position: static; }
 
 @media only screen and (min-width: 481px) and (max-width: 768px){
 
+   
     .becomeapartner{
         width: 80%;
         margin: auto;
@@ -2007,7 +2018,7 @@ footer { position: static; }
     .becomeapartnerBG{
         width: 100%;
         margin: auto;
-        background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(images/partnerwithusimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6 rgba(0, 0, 0, 0.8)6)),url(images/partnerwithusimage.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
@@ -2019,14 +2030,15 @@ footer { position: static; }
 
     .becomeapartner h2{
         font-size: 23px;
-        line-height: 30px;
+        line-height: 40px;
         color: white;
+        font-weight: 500;
         margin-bottom: 10px;
         padding-bottom: 0PX;
     }
 
      .becomeapartner h1{
-        font-size: 45px;
+        font-size: 40px;
         color: white;
         margin-bottom: 20px;
         padding: 0;
@@ -2038,10 +2050,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143C;
+        border: 1px solid #009213cc;
         padding: 10px 20px;
         font-size: 20px;
-        background: #dc143C;
+        background: #009213cc;
         cursor: pointer;
         border-radius: 5px;
         transition: 0.5s;
@@ -2052,16 +2064,18 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #228B22;
         padding: 12px 34px;
         font-size: 20px;
-        background: #dc143c;
+        background: #228B22;
         cursor: pointer;
         transition: 0.5s;
         border-radius: 5px;
         
 
     }
+
+
 
 
 }
@@ -2121,7 +2135,7 @@ footer { position: static; }
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     margin: 0 auto;
     text-align: center;
     max-width: 330px;
@@ -2178,8 +2192,8 @@ footer { position: static; }
 
 
 .newsletter button:hover{
-    background-color: #064ACB;
-    border-color: #064ACB;
+    background-color: #009213cc;
+    border-color: #009213cc;
     font-size: 15px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
     transition: 0.5s;
@@ -2260,20 +2274,6 @@ footer { position: static; }
 
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {   
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
  .dropbtn {
@@ -2387,6 +2387,7 @@ footer { position: static; }
 
     .navbar{
         width:100%;
+        margin-top: 50px;
         display: flex;
         align-items: center;
 
@@ -2394,8 +2395,11 @@ footer { position: static; }
     }
 
     .myphulogo{
-        width: 70px;
+        width: 120px;
         cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 8px;
     
     }
 
@@ -2432,7 +2436,7 @@ footer { position: static; }
     }
 
     nav ul li a:hover{
-        color: #dc143c;
+        color: #009213;
         font-size: 15px;
         text-decoration: underline;
         transition: 0.5s;
@@ -2451,7 +2455,7 @@ footer { position: static; }
     
         width: 100%;
         padding-bottom: 100px;
-        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)),url(images/headerimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(images/headerimage.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -2483,10 +2487,10 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
         font-size: 20px;
-        background: #dc143c;
+        background: #009213;
         cursor: pointer;
         border-radius: 3px;
     }
@@ -2497,14 +2501,15 @@ footer { position: static; }
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 1px solid #dc143c;
+    border: 1px solid #009213;
     padding: 12px 34px;
     font-size: 20px;
-    background: #dc143c;
+    background: #009213;
     cursor: pointer;
     border-radius: 3px;
 
     }
+
 
 
 
@@ -2632,51 +2637,49 @@ footer { position: static; }
         background-position: center;
         background-size: cover;
         text-align: center;
-        padding: 50px 0;
+        padding: 100px 0;
+        font-size: 42px;
         color: white;
-        padding-bottom: 100PX;
+        top: 100px;
+
     }
 
 
     .becomeapartnerBG{
         width: 100%;
-
         margin: auto;
-        background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(images/partnerwithusimage.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.822)),url(images/partnerwithusimage.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
-        padding: 0px 0;
+        padding: 10px 0;
+        padding-bottom: 50px;
+        font-size: 65px;
         color: white;
         box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
   
     }
 
+
     .becomeapartner h2{
         font-size: 30px;
-        line-height: 40px;
+        font-weight: 500;
+        line-height: 50px;
         color: white;
-        margin-bottom: 10px;
-        padding-bottom: 0PX;
-    }
-
-     .becomeapartner h1{
-        font-size: 60px;
-        color: white;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-top: 30px;
         padding: 0;
     }
-
 
 
     .becomeapartnerbtn{
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143C;
-        padding: 10px 20px;
-        font-size: 26px;
-        background: #dc143C;
+        border: 1px solid #009213;
+        padding: 12px 34px;
+        font-size: 25px;
+        background: #009213;
         cursor: pointer;
         border-radius: 5px;
         transition: 0.5s;
@@ -2687,16 +2690,17 @@ footer { position: static; }
         display: inline-block;
         text-decoration: none;
         color: white;
-        border: 1px solid #dc143c;
+        border: 1px solid #009213;
         padding: 12px 34px;
-        font-size: 26px;
-        background: #dc143c;
+        font-size: 28px;
+        background: #009213;
         cursor: pointer;
         transition: 0.5s;
         border-radius: 5px;
-        
+    
 
     }
+   
 
 
 }
@@ -2841,7 +2845,7 @@ footer{
 
 
 .newsletter {
-    background-image: linear-gradient(to right top, #86004d, #7e055b, #721168, #611c74, #49267f, #3a358b, #274294, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
+    background-image: linear-gradient(to right top, #004a86, #05357e, #0055c4, #004ea8, #00779b, #0049b8, #0055a5, #004e9b, #0062a1, #00729c, #007f8f, #008a81);
     
     text-align: center;
     width: 200px;
@@ -2898,8 +2902,8 @@ footer{
 
 
 .newsletter button:hover{
-    background-color: #064ACB;
-    border-color: #064ACB;
+    background-color: #009213cc;
+    border-color: #009213cc;
     font-size: 17px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
     transition: 0.5s;
@@ -2983,3 +2987,30 @@ footer{
 
 
 }
+
+
+
+/*-----------------------------------
+------------------------------------
+----------------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {   
+
+    .navbar{
+           width:100%;
+             margin-top: 50px;
+           display: flex;
+           align-items: center;
+          
+   
+       }
+   
+       .myphulogo{
+           width: 100px;
+           cursor: pointer;
+           top: 520px;
+           margin: 0px 0;
+           margin-top: 10px;
+       }
+   
+   }

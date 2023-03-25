@@ -239,17 +239,19 @@ html{
 
     .navbar{
         width:100%;
-        display: flex;
-        align-items: center;
+        margin-top: 50px;
+      display: flex;
+      align-items: center;
        
 
     }
 
     .myphulogo{
-        width: 100px;
+        width: 220px;
         cursor: pointer;
         top: 520px;
-        margin: 30px 0;
+        margin: 0px 0;
+        margin-top: 10px;
     }
 
     .menu-icon{
@@ -1251,11 +1253,11 @@ background: linear-gradient(to right, #1123c7, #004e92); /* W3C, IE 10+/ Edge, F
     
       
     .myphulogo{
-    width: 70px;
-    cursor: pointer;
-    top: -10px;
-    left: 5%;
-    position: absolute;
+        width: 70px;
+        cursor: pointer;
+        top: 32px;
+        left: 5%;
+        position: absolute;
     
     }
 
@@ -2071,8 +2073,11 @@ footer { position: static; }
 
 
     .myphulogo{
-    width: 80px;
-    cursor: pointer;
+        width: 100px;
+        cursor: pointer;
+        top: 48px;
+        left: 5%;
+        position: absolute;
     
     }
 
@@ -2697,6 +2702,7 @@ footer { position: static; }
 
     .navbar{
         width:100%;
+        margin-top: 50px;
         display: flex;
         align-items: center;
 
@@ -2704,8 +2710,11 @@ footer { position: static; }
     }
 
     .myphulogo{
-        width: 70px;
+        width: 120px;
         cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 8px;
     
     }
 
@@ -3391,3 +3400,29 @@ footer{
 
 
 }
+
+
+/*-----------------------------------
+------------------------------------
+----------------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {   
+
+    .navbar{
+           width:100%;
+             margin-top: 50px;
+           display: flex;
+           align-items: center;
+          
+   
+       }
+   
+       .myphulogo{
+           width: 100px;
+           cursor: pointer;
+           top: 520px;
+           margin: 0px 0;
+           margin-top: 10px;
+       }
+   
+   }

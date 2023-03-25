@@ -235,6 +235,7 @@ html{
 
     .navbar{
         width:100%;
+          margin-top: 50px;
         display: flex;
         align-items: center;
        
@@ -242,10 +243,11 @@ html{
     }
 
     .myphulogo{
-        width: 100px;
+        width: 220px;
         cursor: pointer;
         top: 520px;
-        margin: 30px 0;
+        margin: 0px 0;
+        margin-top: 10px;
     }
 
     .menu-icon{
@@ -509,8 +511,8 @@ html{
         position: fixed;
         top: 20px;
         right: -50%;
-        width: 100%;
-        height: 25%;
+        width: 50%;
+        height: 100%;
         background: #005C97;  /* fallback for old browsers */
         background: 
         -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -1306,9 +1308,9 @@ font-size: 65px;
     
       
     .myphulogo{
-    width: 70px;
+   width: 70px;
     cursor: pointer;
-    top: -10px;
+    top: 32px;
     left: 5%;
     position: absolute;
     
@@ -2213,8 +2215,11 @@ footer { position: static; }
 
 
     .myphulogo{
-    width: 80px;
-    cursor: pointer;
+    width: 100px;
+        cursor: pointer;
+        top: 48px;
+        left: 5%;
+        position: absolute;
     
     }
 
@@ -2918,7 +2923,8 @@ footer { position: static; }
 
 
     .navbar{
-        width:100%;
+          width:100%;
+        margin-top: 50px;
         display: flex;
         align-items: center;
 
@@ -2926,8 +2932,11 @@ footer { position: static; }
     }
 
     .myphulogo{
-        width: 70px;
+        width: 120px;
         cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 8px;
     
     }
 
@@ -3692,5 +3701,33 @@ footer{
 }
 
 
+
+}
+
+
+
+
+/*-----------------------------------
+------------------------------------
+----------------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {   
+
+ .navbar{
+        width:100%;
+          margin-top: 50px;
+        display: flex;
+        align-items: center;
+       
+
+    }
+
+    .myphulogo{
+        width: 100px;
+        cursor: pointer;
+        top: 520px;
+        margin: 0px 0;
+        margin-top: 10px;
+    }
 
 }
